@@ -102,7 +102,7 @@
         opacity: 0;
         color: white;
         font-weight: bold;
-        animation: flow .3s ease-in-out forwards;
+        animation: flow .5s ease-in-out forwards;
        }
        @keyframes flow {
         from{
@@ -120,7 +120,7 @@
        }
        
        .p2{
-        animation: flow2 .3s ease-in-out forwards;
+        animation: flow2 .5s ease-in-out forwards;
        }
 
         @keyframes flow2 {
@@ -139,8 +139,70 @@
        .p4{
         animation-delay: .2s;
        }
-      
+      .s1{
+        height: 100vh;
+        width: 100%;
+        /* border: solid black 1px; */
+        padding-top: .1px;
+        
+        
        
+        
+      }
+      .s1_div{
+        height: 50px;
+        width: 100%;
+        border-bottom: solid rgba(0, 0, 0, 0.301) 1px;
+        margin-top: 80px;
+        
+       
+      }
+      .s1_ptag{
+        font-size: 25px;
+        margin-left: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+       .s1_div2{
+        height: 500px;
+        width: 96%;
+        /* border: solid black 1px; */
+        margin: auto;
+        margin-top: 30px;
+       }
+       .s1_box{
+        height: 47%;
+        width: 100%;
+        /* border: solid black 1px; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+       }
+       .s1_dives{
+        height: 100%;
+        width: 23%;
+        position: relative;
+        /* border: solid black 1px; */
+       }
+       #house2{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+       }
+       .s1_innr_div{
+        position: absolute;
+        height: 40px;
+        width: 160px;
+        padding-top: .1px;
+        /* border: solid black 1px; */
+        background-color: rgba(0, 0, 0, 0.459);
+       }
+       .s1_ptag2{
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 10px;
+        font-size: 13px;
+       }
     </style>
 </head>
 <body>
@@ -175,6 +237,67 @@
             </div>
 
         </header>
+        <!-- ///////////header/////// -->
+         <section class="s1">
+            <div class="s1_div">
+                <p class="s1_ptag">Projects</p>
+            </div>
+            <div class="s1_div2">
+                <div class="s1_box">
+                    <div class="s1_dives">
+                        <img id="house2" src="./images/house2.jpg" alt="">
+                        <div class="s1_innr_div">
+                            <p class="s1_ptag2">Summer House</p>
+                        </div>
+                    </div>
+                    <div class="s1_dives">
+                         <img id="house2" src="./images/house3.jpg" alt="">
+                          <div class="s1_innr_div">
+                            <p class="s1_ptag2">Brick House</p>
+                        </div>
+                    </div>
+                    <div class="s1_dives">
+                         <img id="house2" src="./images/house4.jpg" alt="">
+                          <div class="s1_innr_div">
+                            <p class="s1_ptag2">Renovated</p>
+                        </div>
+                    </div>
+                    <div class="s1_dives">
+                         <img id="house2" src="./images/house5.jpg" alt="">
+                          <div class="s1_innr_div">
+                            <p class="s1_ptag2">Barn House</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="s1_box" style="margin-top: 20px;">
+                     <div class="s1_dives">
+                        <img id="house2" src="./images/house5.jpg" alt="">
+                         <div class="s1_innr_div">
+                            <p class="s1_ptag2">Barn House</p>
+                        </div>
+                     </div>
+                    <div class="s1_dives">
+                        <img id="house2" src="./images/house4.jpg" alt="">
+                         <div class="s1_innr_div">
+                            <p class="s1_ptag2">Renovated</p>
+                        </div>
+                    </div>
+                    <div class="s1_dives">
+                        <img id="house2" src="./images/house3.jpg" alt="">
+                         <div class="s1_innr_div">
+                            <p class="s1_ptag2">Brick House</p>
+                        </div>
+                    </div>
+                    <div class="s1_dives">
+                        <img id="house2" src="./images/house2.jpg" alt="">
+                         <div class="s1_innr_div">
+                            <p class="s1_ptag2">Summer House</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
 
     </main>
 

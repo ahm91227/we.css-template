@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta input_s3="viewport" content="width=device-width, initial-scale=1.0">
     <title>website</title>
     <style>
         * {
@@ -234,7 +234,7 @@
         .s2 {
             height: 110vh;
             width: 100%;
-            border: solid black 1px;
+            /* border: solid black 1px; */
             padding-left: 20px;
             padding-right: 20px;
         }
@@ -247,9 +247,9 @@
 
         .s2_div {
             width: 98%;
-            border: solid black 1px;
+            /* border: solid black 1px; */
             margin: auto;
-            margin-top: 60px;
+            margin-top: 100px;
             display: flex;
             justify-content: space-between;
         }
@@ -302,22 +302,25 @@
             background-color: rgba(0, 0, 0, 0.733);
         }
 
-        .s2_ptag{
+        .s2_ptag {
             font-size: 25px;
             margin-top: 20px;
             color: white;
         }
-        .s2_ptag2{
+
+        .s2_ptag2 {
             color: white;
             margin-top: 30px;
         }
-        .s2_ptag3{
+
+        .s2_ptag3 {
             color: rgba(255, 255, 255, 0.671);
             margin-top: 30px;
             font-size: 18px;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
-        .s2_btn{
+
+        .s2_btn {
             display: block;
             margin: auto;
             margin-top: 40px;
@@ -329,11 +332,58 @@
             background-color: whitesmoke;
             border-radius: 10px;
             transition: all .2s linear;
-            
+
         }
-        .s2_btn:hover{
+
+        .s2_btn:hover {
             transform: scale(1.05);
             cursor: pointer;
+        }
+        .s3{
+            height: 65vh;
+            width: 100%;
+            /* border: solid black 1px; */
+        }
+        .s3_pt{
+            margin-top: 20px;
+            margin-left: 43px;
+            font-size: 17px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .s3_div{
+            height: max-content;
+            width: 95%;
+            /* border: solid black 1px; */
+            margin: auto;
+            margin-top: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        #input_s3{
+            width: 100%;
+            height: 39px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 17px;
+            outline: none;
+
+        }
+        .s3_btn{
+            margin-top: 40px;
+            width: 150px;
+            height: 35px;
+            background-color: rgba(0, 0, 0, 0.63);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all .2s linear;
+        }
+        .s3_btn:hover{
+            transform: scale(1.05);
         }
     </style>
 </head>
@@ -445,62 +495,81 @@
 
             <div class="s2_div">
 
-    <div class="flp_box_prnt">
-        <div class="flp_box">
-            <div class="front_div">
-                <img id="team2" src="./images/team2.jpg" alt="">
-            </div>
-            <div class="back_div">
-                <p class="s2_ptag">Jane Doe</p>
-                <p class="s2_ptag2">CEO & Founder</p>
-                <p class="s2_ptag3">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <button class="s2_btn">Contact</button>
-            </div>
-        </div>
-    </div>
+                <div class="flp_box_prnt">
+                    <div class="flp_box">
+                        <div class="front_div">
+                            <img id="team2" src="./images/team2.jpg" alt="">
+                        </div>
+                        <div class="back_div">
+                            <p class="s2_ptag">Jane Doe</p>
+                            <p class="s2_ptag2">CEO & Founder</p>
+                            <p class="s2_ptag3">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+                                pellentesque elementum.</p>
+                            <button class="s2_btn">Contact</button>
+                        </div>
+                    </div>
+                </div>
 
-    <div class="flp_box_prnt">
-        <div class="flp_box">
-            <div class="front_div">
-                <img id="team2" src="./images/team1.jpg" alt="">
-            </div>
-            <div class="back_div">
-                <p class="s2_ptag">Jane Doe</p>
-                <p class="s2_ptag2">CEO & Founder</p>
-                <p class="s2_ptag3">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <button class="s2_btn">Contact</button>
-            </div>
-        </div>
-    </div>
-    <div class="flp_box_prnt">
-        <div class="flp_box">
-            <div class="front_div">
-                <img id="team2" src="./images/team3.jpg" alt="">
-            </div>
-            <div class="back_div">
-                <p class="s2_ptag">Jane Doe</p>
-                <p class="s2_ptag2">CEO & Founder</p>
-                <p class="s2_ptag3">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <button class="s2_btn">Contact</button>
-            </div>
-        </div>
-    </div>
-    <div class="flp_box_prnt">
-        <div class="flp_box">
-            <div class="front_div">
-                <img id="team2" src="./images/team4.jpg" alt="">
-            </div>
-            <div class="back_div">
-                <p class="s2_ptag">Jane Doe</p>
-                <p class="s2_ptag2">CEO & Founder</p>
-                <p class="s2_ptag3">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <button class="s2_btn">Contact</button>
-            </div>
-        </div>
-    </div>
+                <div class="flp_box_prnt">
+                    <div class="flp_box">
+                        <div class="front_div">
+                            <img id="team2" src="./images/team1.jpg" alt="">
+                        </div>
+                        <div class="back_div">
+                            <p class="s2_ptag">Jane Doe</p>
+                            <p class="s2_ptag2">CEO & Founder</p>
+                            <p class="s2_ptag3">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+                                pellentesque elementum.</p>
+                            <button class="s2_btn">Contact</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flp_box_prnt">
+                    <div class="flp_box">
+                        <div class="front_div">
+                            <img id="team2" src="./images/team3.jpg" alt="">
+                        </div>
+                        <div class="back_div">
+                            <p class="s2_ptag">Jane Doe</p>
+                            <p class="s2_ptag2">CEO & Founder</p>
+                            <p class="s2_ptag3">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+                                pellentesque elementum.</p>
+                            <button class="s2_btn">Contact</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flp_box_prnt">
+                    <div class="flp_box">
+                        <div class="front_div">
+                            <img id="team2" src="./images/team4.jpg" alt="">
+                        </div>
+                        <div class="back_div">
+                            <p class="s2_ptag">Jane Doe</p>
+                            <p class="s2_ptag2">CEO & Founder</p>
+                            <p class="s2_ptag3">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+                                pellentesque elementum.</p>
+                            <button class="s2_btn">Contact</button>
+                        </div>
+                    </div>
+                </div>
 
-</div>
+            </div>
         </section>
+        <!-- /////////////////s2//////// -->
+         <section class="s3">
+             <div class="s1_div" style="margin-top: 20px;">
+                <p class="s1_ptag">Contact</p>
+            </div>
+            <p class="s3_pt">Lets get in touch and talk about your next project.</p>
+            <div class="s3_div">
+                <input id="input_s3" placeholder="Name" type="text">
+                <input id="input_s3" placeholder="Email" type="text" style="margin-top: 15px;">
+                <input id="input_s3" placeholder="Subject" type="text" style="margin-top: 15px;">
+                <input id="input_s3" placeholder="Comment" type="text" style="margin-top: 15px;">
+                <button class="s3_btn">Send Message</button>
+            </div>
+         </section>
+         
 
     </main>
 
